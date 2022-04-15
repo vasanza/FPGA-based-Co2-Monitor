@@ -12,7 +12,7 @@
 - https://ieeexplore.ieee.org/document/9530151
 # CLONE
 - git status
-- git clone https://github.com/vasanza/WiFi_RSSI_Localization.git
+- git clone https://github.com/vasanza/FPGA-based-Co2-Monitor.git
 # SWITCHED TO BRANCH
 - git branch
 - git checkout NameBranch
