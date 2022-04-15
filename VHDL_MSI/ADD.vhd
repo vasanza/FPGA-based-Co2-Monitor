@@ -1,0 +1,25 @@
+--Adder of 2 number of n bits
+--https://vasanza.blogspot.com
+--https://github.com/vasanza/MSI-VHDL
+
+--Library
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+--Entity
+entity Add is
+	generic ( n: integer :=8);--<------- nbits
+	port(
+		X: in std_logic_vector(n-1 downto 0);
+		Y: in std_logic_vector(n-1 downto 0);
+		S: out std_logic_vector(n-1 downto 0));
+end Add;
+
+--Architecture
+architecture solve of Add is
+	-- Signals,Constants,Variables,Components
+	begin
+		s<=x+Y;--Without the sign bit
+		--s<='0'&(x+y);--with sign bit
+end solve;
