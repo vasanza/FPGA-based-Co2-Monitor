@@ -1,10 +1,5 @@
 ![image](https://user-images.githubusercontent.com/12642226/163504128-34a06db1-8282-4192-816f-1d5a829fe2f9.png)
 
-# To work better it is recommended:
-- The main code in the project folder
-- The data in a subfolder called "data"
-- Put these functions in a subfolder called "src"
-
 # Dataset
 - https://ieee-dataport.org/open-access/data-server-energy-consumption-dtaset
 
@@ -12,15 +7,24 @@
 - https://ieeexplore.ieee.org/document/9542899
 - https://ieeexplore.ieee.org/document/9542907
 - https://ieeexplore.ieee.org/document/9530151
-# CLONE
+
+# Repository technical specifications
+## To work better it is recommended:
+- The main code in the project folder
+- Put dataset in a subfolder called "Data"
+- Put these functions in a subfolder called "src"
+- Use in main code: addpath(genpath('./src'))%functions folders
+
+# Keynote
+## Clone
 - git status
 - git clone https://github.com/vasanza/FPGA-based-Co2-Monitor.git
-# SWITCHED TO BRANCH
+## Switched to Branch
 - git branch
 - git checkout NameBranch
-# New Branch
+## New Branch
 - git checkout -b NameBranch
-# PUSH
+## Push
 - git pull origin NameBranch
 - git status
 - git add .
